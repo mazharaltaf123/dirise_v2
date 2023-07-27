@@ -19,4 +19,12 @@ root {
 body {
   /* color: rgb(var(--foreground-rgb)); */
   background:#F9F8FF;
+    font-family: 'Circular Spotify Text', Arial, sans-serif;
+}
+.card:hover .heart-icon {
+  opacity: 1;
+}
+
+.card .heart-icon {
+  transition: opacity 0.3s ease;
 }

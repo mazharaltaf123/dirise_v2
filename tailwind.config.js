@@ -7,6 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      container: {
+        padding: {
+          DEFAULT: '1rem',
+          sm: '2rem',
+          lg: '4rem',
+          xl: '5rem',
+          '2xl': '6rem',
+        },
+      },
       colors: {
         MainColor:"#203A82",
         primary: '#FF0000',
@@ -16,7 +25,11 @@ module.exports = {
         borderColor:"background: rgba(32, 38, 44, 0.24);",
         Seconday:"#20262C",
         backgroundSky: "#9BC3F6",
-        pricingcard:"#EBF1F4"
+        pricingcard:"#EBF1F4",
+        colorThemePrimary: "#4b5c6c",
+        colorThemeSecondary: "#e3d8c4",
+        colorThemelightVariant: "#90916f",
+        colorThemeDarkVariant: "#bf764d",
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
